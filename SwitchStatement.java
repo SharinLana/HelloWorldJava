@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// Switch-Case is faster than If statement in Java
 class SwitchStatement {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
