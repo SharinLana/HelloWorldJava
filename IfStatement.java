@@ -20,7 +20,7 @@ class IfStatement {
     } else if (operation.equals("sub")) {
       System.out.printf("%f - %f = %f", num1, num2, num1 - num2);
     } else {
-      System.out.println("Sorry, this operation is not supported");
+      System.out.printf("Sorry, the %s operation is not supported", operation);
     }
     
     scanner.close();
