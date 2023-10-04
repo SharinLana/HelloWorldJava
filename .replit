@@ -1,6 +1,6 @@
 compile = "javac -classpath .:target/dependency/* -d . $(find . -type f -name '*.java')"
-run = "java -classpath .:target/dependency/* ForLoop"
-entrypoint = "ForLoop.java"
+run = "java -classpath .:target/dependency/* WhileLoop"
+entrypoint = "WhileLoop.java"
 hidden = ["**/*.class"]
 
 [packager]
