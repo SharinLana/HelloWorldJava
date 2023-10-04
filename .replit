@@ -1,6 +1,6 @@
 compile = "javac -classpath .:target/dependency/* -d . $(find . -type f -name '*.java')"
-run = "java -classpath .:target/dependency/* SwitchStatement"
-entrypoint = "SwitchStatement.java"
+run = "java -classpath .:target/dependency/* ArraysExplanation"
+entrypoint = "ArraysExplanation.java"
 hidden = ["**/*.class"]
 
 [packager]
